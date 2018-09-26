@@ -1,1 +1,78 @@
+/* beginning of CSS file*/
 
+img {
+	border: sold 10px olive;
+	}
+
+body {
+	background-color: lightgrey;
+}
+
+/* page elements inside will be within the margin and centered */
+
+main{
+	width:60%;
+	margin: 0 auto;
+}
+
+/* all neew section will be clear and in columns */
+
+section {
+  clear: both;
+}
+
+/* all images will have borders around it. Giving it a style to match the titles of each development */
+
+img {
+  border: solid 2px olive;
+}
+
+/* all images will be placed on the left of each section */
+
+aside {
+	float: left;
+	border: solid 0px olive;
+	width: 20%;
+}
+
+/* the description of each building will be placed on the right of the images giving it a neat look */
+
+article {
+	float: right;
+	width: 75%;
+}
+
+/* beginning of headline styles */
+
+h1{
+	color:olive;
+	text-align: center;
+	font-family: cambria;
+	font-size: 50px;
+}
+
+/* main headline style */
+
+h2{
+	color:black;
+	text-align: center;
+	font-family: tahoma;
+	font-size: 20px;
+}
+
+/* article headline style */
+
+h3{
+	color:olive;
+	text-align: center;
+	font-family: tahoma
+	font-size:20px;
+}
+
+/* footer style aligned to the middle of the end of the page */
+
+footer{
+
+	clear:both;
+	text-algn: center;
+}
